@@ -1,12 +1,10 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 
 export function SignUpPage() {
 
     return (
         <>
-            <Form>
+            {/* <Form>
                 <Form.Group className="mb-3" controlId="firstName">
                     <Form.Label>First name</Form.Label>
                     <Form.Control type="text" placeholder="Enter your first name" />
@@ -36,7 +34,7 @@ export function SignUpPage() {
                     Submit
                 </Button>
 
-            </Form>
+            </Form> */}
         </>
     )
 }

@@ -1,29 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import { LinkContainer } from 'react-router-bootstrap';
 
 
 export function SignInPage() {
   return (
     <>
-      <Form className='col-2'  >
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-        </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
-        </Form.Group>
-        <Button variant="primary" type="submit">Submit</Button>
-        <LinkContainer to="/signUp">
-          <Link>Sign up</Link>
-        </LinkContainer>
-
-      </Form>
       {/* <form method='post' action="http://localhost:8080/signIn">
                 <label for="login">Login:</label>
                 <input type="text" name='login' />
